@@ -1,4 +1,20 @@
 <!-- SPDX-License-Identifier: Apache-2.0 -->
+
+About this Fork
+===================
+
+The purpose of this fork is to provide pre-compiled binaries of the Arnold USD plugin in the [release section](https://github.com/PrismPipeline/arnold-usd/releases).
+
+## Using the pre-compiled binaries in USD applications
+This plugin can be used in USD applications, like [QuiltiX](https://github.com/PrismPipeline/QuiltiX), to add the Arnold Hydra delegate.
+
+Download and extract the archive and then add the following paths to the environment:\
+`Arnold/hdArnold/plugin` to `PXR_PLUGINPATH_NAME`\
+`Arnold/Arnold-7.2.5.2-windows/bin` to `PATH`
+
+Original README:
+==========
+
 Arnold USD
 ==========
 
